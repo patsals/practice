@@ -2,15 +2,84 @@
 * Not sure what im doing, but I am doing something
 *
 */
-
+import java.util.Scanner;
 public class gitHubPractice
 {
   public static void main(String[] args)
   {
+  Scanner input = new Scanner(System.in);
   
-  System.out.println("Hello world!!");
-  System.out.println("This is a pull request and hopefully it will get merged!");
+  char choice = n;
   
-  
+  while(choice.toLowerCase() != 'z')
+  {
+    System.out.println("The main functions of Github are:");
+    System.out.println("A) Create Branches\nB) Discuss issues \nC) Analyze pull requests\nD) Work as a team! \nZ) To exit");
+    System.out.println("Select one of the letters to learn more information about it!");
+
+    choice = input.nextChar();
+
+    switch (char.toLowerCase())
+    {
+      case 'a':
+
+        break;
+      case 'b':
+
+        break;
+      case 'c':
+
+        break;
+      case 'd';
+
+        break;
+      case 'z':
+        break;;
+      default:
+        System.out.println("What the heck! invalid option!");
+    }
+
   }
+  
+  
+  input.close();
+  }//end of main
+  
+  
+  
+  //function declarations
+  public void createBranches()
+  {
+  System.out.println("\n\n\n\n\n\n");
+  System.out.println("On GitHub, one of the main advantages is being able to use multiple copies of the main product");
+  System.out.println("but being able to slightly edit and make different versions to eventually get pulled to the main");
+  System.out.println("copy of the product. This main copy of the product is considered as the \"Main Branch\" and the ");
+  System.out.println("slighlty edited versions are considered as the \"Side Branches\". Eventually after some deciding,");
+  System.out.println("the team can all agree on one version and chose that version to become the new main branch, allowing");
+  System.out.println("us to delete the side branch we originally created.");
+  }
+  
+  public void discussIssues()
+  {
+  System.out.println("\n\n\n\n\n\n");
+
+  }
+  
+  public void analyzePullRequests()
+  {
+  System.out.println("\n\n\n\n\n\n");
+
+  }
+  
+  public void workAsATeam()
+  {
+  System.out.println("\n\n\n\n\n\n");
+
+  }
+  
 }
+
+
+
+
+
