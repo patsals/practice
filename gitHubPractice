@@ -1,0 +1,16 @@
+/*
+* Not sure what im doing, but I am doing something
+*
+*/
+
+public class gitHubPractice
+{
+  public static void main(String[] args)
+  {
+  
+  System.out.println("Hello world!!");
+  
+  
+  
+  }
+}
